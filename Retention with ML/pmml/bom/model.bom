@@ -1,0 +1,76 @@
+
+package diefth379.testing.retention_with_ml.pmml;
+
+
+class Error
+        property ads.typeId "2"
+        #de.generated
+{
+    string code
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "code";
+    string message
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "message";
+    Error(string code, string message)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Error()
+                #dataio.default;
+}
+
+class Input
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonPropertyOrder "{input}"
+        #de.generated
+{
+    string input
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "input";
+    Input(string input)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Input()
+                #dataio.default;
+}
+
+class Output
+        property ads.typeId "3"
+        property com.fasterxml.jackson.annotation.JsonIgnoreProperties {
+            ignoreUnknown "true"
+        }
+        #de.generated
+{
+    diefth379.testing.retention_with_ml.pmml.Error error
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "error";
+    string output
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "output";
+    Output(string output)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Output()
+                #dataio.default;
+    boolean inError()
+                property de.generated {
+                    $gen "com.ibm.decision.ml.integration.xom.InErrorTestGenerator",
+                    $target "BOM"
+                };
+    static Output run(diefth379.testing.retention_with_ml.pmml.Input input)
+                #pureFunction;
+    static Output run(com.ibm.decision.run.RunContext runContext, diefth379.testing.retention_with_ml.pmml.Input input)
+                property de.generated {
+                    $gen "com.ibm.decision.ml.integration.xom.PredictionRunGenerator",
+                    $target "BOM",
+                    providerInfoId "e7c050fd-c6e2-43a8-b4fd-e0a6a5ac7fef"
+                }
+                #pureFunction;
+}
+

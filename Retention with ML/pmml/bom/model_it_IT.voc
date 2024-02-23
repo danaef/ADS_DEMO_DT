@@ -1,0 +1,25 @@
+
+# diefth379.testing.retention_with_ml.pmml.Error
+diefth379.testing.retention_with_ml.pmml.Error#concept.label = Errore di output
+diefth379.testing.retention_with_ml.pmml.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = un nuovo {Errore di output} dove {0, codice} {1, messaggio} 
+diefth379.testing.retention_with_ml.pmml.Error.code#phrase.action = cambia la codice {this,PARTITIVE_ARTICLE} a {codice}
+diefth379.testing.retention_with_ml.pmml.Error.code#phrase.navigation = {codice} {this,PARTITIVE_ARTICLE}
+diefth379.testing.retention_with_ml.pmml.Error.message#phrase.action = cambia il messaggio {this,PARTITIVE_ARTICLE} a {messaggio}
+diefth379.testing.retention_with_ml.pmml.Error.message#phrase.navigation = {messaggio} {this,PARTITIVE_ARTICLE}
+
+# diefth379.testing.retention_with_ml.pmml.Input
+diefth379.testing.retention_with_ml.pmml.Input#concept.label = Input modello ML
+diefth379.testing.retention_with_ml.pmml.Input.Input(java.lang.String)#phrase.navigation = un nuovo {Input modello ML} dove {0, input} 
+diefth379.testing.retention_with_ml.pmml.Input.input#phrase.action = cambia l'input {this,PARTITIVE_ARTICLE} a {input}
+diefth379.testing.retention_with_ml.pmml.Input.input#phrase.navigation = {input} {this,PARTITIVE_ARTICLE}
+
+# diefth379.testing.retention_with_ml.pmml.Output
+diefth379.testing.retention_with_ml.pmml.Output#concept.label = Output del modello ML
+diefth379.testing.retention_with_ml.pmml.Output.Output(java.lang.String)#phrase.navigation = un nuovo {Output del modello ML} dove {0, output} 
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.action = cambia l'errore {this,PARTITIVE_ARTICLE} a {errore}
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.clearer = cancella l'errore {this,PARTITIVE_ARTICLE}
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.navigation = {errore} {this,PARTITIVE_ARTICLE}
+diefth379.testing.retention_with_ml.pmml.Output.inError()#phrase.navigation = {this} è in errore
+diefth379.testing.retention_with_ml.pmml.Output.output#phrase.action = cambia l'output {this,PARTITIVE_ARTICLE} a {output}
+diefth379.testing.retention_with_ml.pmml.Output.output#phrase.navigation = {output} {this,PARTITIVE_ARTICLE}
+diefth379.testing.retention_with_ml.pmml.Output.run(diefth379.testing.retention_with_ml.pmml.Input)#phrase.navigation = predict({0})

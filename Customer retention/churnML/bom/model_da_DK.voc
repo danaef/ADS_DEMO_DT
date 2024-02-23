@@ -1,0 +1,57 @@
+
+# diefth379.testing.customer_retention.churnml.Error
+diefth379.testing.customer_retention.churnml.Error#concept.label = Output error
+diefth379.testing.customer_retention.churnml.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = en ny {Output error} hvor {0, code} {1, message} 
+diefth379.testing.customer_retention.churnml.Error.code#phrase.action = sæt coden på {this} til {code}
+diefth379.testing.customer_retention.churnml.Error.code#phrase.navigation = {code} på {this}
+diefth379.testing.customer_retention.churnml.Error.message#phrase.action = sæt messagen på {this} til {message}
+diefth379.testing.customer_retention.churnml.Error.message#phrase.navigation = {message} på {this}
+
+# diefth379.testing.customer_retention.churnml.Input
+diefth379.testing.customer_retention.churnml.Input#concept.label = ML model input
+diefth379.testing.customer_retention.churnml.Input.Input(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,double,double)#phrase.navigation = en ny {ML model input} hvor {0, gender} {1, status} {2, car owner} {3, paymethod} {4, children} {5, est income} {6, age} {7, usage} {8, rateplan} 
+diefth379.testing.customer_retention.churnml.Input.age#phrase.action = sæt agen på {this} til {age}
+diefth379.testing.customer_retention.churnml.Input.age#phrase.addition_setter = føj {age} til agen på {this}
+diefth379.testing.customer_retention.churnml.Input.age#phrase.navigation = {age} på {this}
+diefth379.testing.customer_retention.churnml.Input.age#phrase.subtraction_setter = træk {age} fra agen på {this}
+diefth379.testing.customer_retention.churnml.Input.carOwner#phrase.action = sæt car owneren på {this} til {car owner}
+diefth379.testing.customer_retention.churnml.Input.carOwner#phrase.navigation = {car owner} på {this}
+diefth379.testing.customer_retention.churnml.Input.children#phrase.action = sæt childrenen på {this} til {children}
+diefth379.testing.customer_retention.churnml.Input.children#phrase.addition_setter = føj {children} til childrenen på {this}
+diefth379.testing.customer_retention.churnml.Input.children#phrase.navigation = {children} på {this}
+diefth379.testing.customer_retention.churnml.Input.children#phrase.subtraction_setter = træk {children} fra childrenen på {this}
+diefth379.testing.customer_retention.churnml.Input.estIncome#phrase.action = sæt est incomen på {this} til {est income}
+diefth379.testing.customer_retention.churnml.Input.estIncome#phrase.addition_setter = føj {est income} til est incomen på {this}
+diefth379.testing.customer_retention.churnml.Input.estIncome#phrase.navigation = {est income} på {this}
+diefth379.testing.customer_retention.churnml.Input.estIncome#phrase.subtraction_setter = træk {est income} fra est incomen på {this}
+diefth379.testing.customer_retention.churnml.Input.gender#phrase.action = sæt genderen på {this} til {gender}
+diefth379.testing.customer_retention.churnml.Input.gender#phrase.navigation = {gender} på {this}
+diefth379.testing.customer_retention.churnml.Input.paymethod#phrase.action = sæt paymethoden på {this} til {paymethod}
+diefth379.testing.customer_retention.churnml.Input.paymethod#phrase.navigation = {paymethod} på {this}
+diefth379.testing.customer_retention.churnml.Input.rateplan#phrase.action = sæt rateplanen på {this} til {rateplan}
+diefth379.testing.customer_retention.churnml.Input.rateplan#phrase.addition_setter = føj {rateplan} til rateplanen på {this}
+diefth379.testing.customer_retention.churnml.Input.rateplan#phrase.navigation = {rateplan} på {this}
+diefth379.testing.customer_retention.churnml.Input.rateplan#phrase.subtraction_setter = træk {rateplan} fra rateplanen på {this}
+diefth379.testing.customer_retention.churnml.Input.status#phrase.action = sæt statusen på {this} til {status}
+diefth379.testing.customer_retention.churnml.Input.status#phrase.navigation = {status} på {this}
+diefth379.testing.customer_retention.churnml.Input.usage#phrase.action = sæt usagen på {this} til {usage}
+diefth379.testing.customer_retention.churnml.Input.usage#phrase.addition_setter = føj {usage} til usagen på {this}
+diefth379.testing.customer_retention.churnml.Input.usage#phrase.navigation = {usage} på {this}
+diefth379.testing.customer_retention.churnml.Input.usage#phrase.subtraction_setter = træk {usage} fra usagen på {this}
+
+# diefth379.testing.customer_retention.churnml.Output
+diefth379.testing.customer_retention.churnml.Output#concept.label = ML model output
+diefth379.testing.customer_retention.churnml.Output.Output(double,double)#phrase.navigation = en ny {ML model output} hvor {0, probability t} {1, probability f} 
+diefth379.testing.customer_retention.churnml.Output.error#phrase.action = sæt erroren på {this} til {error}
+diefth379.testing.customer_retention.churnml.Output.error#phrase.clearer = fjern erroren på {this}
+diefth379.testing.customer_retention.churnml.Output.error#phrase.navigation = {error} på {this}
+diefth379.testing.customer_retention.churnml.Output.inError()#phrase.navigation = {this} er in error
+diefth379.testing.customer_retention.churnml.Output.probability_f_#phrase.action = sæt probability fen på {this} til {probability f}
+diefth379.testing.customer_retention.churnml.Output.probability_f_#phrase.addition_setter = føj {probability f} til probability fen på {this}
+diefth379.testing.customer_retention.churnml.Output.probability_f_#phrase.navigation = {probability f} på {this}
+diefth379.testing.customer_retention.churnml.Output.probability_f_#phrase.subtraction_setter = træk {probability f} fra probability fen på {this}
+diefth379.testing.customer_retention.churnml.Output.probability_t_#phrase.action = sæt probability ten på {this} til {probability t}
+diefth379.testing.customer_retention.churnml.Output.probability_t_#phrase.addition_setter = føj {probability t} til probability ten på {this}
+diefth379.testing.customer_retention.churnml.Output.probability_t_#phrase.navigation = {probability t} på {this}
+diefth379.testing.customer_retention.churnml.Output.probability_t_#phrase.subtraction_setter = træk {probability t} fra probability ten på {this}
+diefth379.testing.customer_retention.churnml.Output.run(diefth379.testing.customer_retention.churnml.Input)#phrase.navigation = predict({0})

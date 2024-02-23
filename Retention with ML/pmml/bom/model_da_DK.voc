@@ -1,0 +1,25 @@
+
+# diefth379.testing.retention_with_ml.pmml.Error
+diefth379.testing.retention_with_ml.pmml.Error#concept.label = Output error
+diefth379.testing.retention_with_ml.pmml.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = en ny {Output error} hvor {0, code} {1, message} 
+diefth379.testing.retention_with_ml.pmml.Error.code#phrase.action = sæt coden på {this} til {code}
+diefth379.testing.retention_with_ml.pmml.Error.code#phrase.navigation = {code} på {this}
+diefth379.testing.retention_with_ml.pmml.Error.message#phrase.action = sæt messagen på {this} til {message}
+diefth379.testing.retention_with_ml.pmml.Error.message#phrase.navigation = {message} på {this}
+
+# diefth379.testing.retention_with_ml.pmml.Input
+diefth379.testing.retention_with_ml.pmml.Input#concept.label = ML model input
+diefth379.testing.retention_with_ml.pmml.Input.Input(java.lang.String)#phrase.navigation = en ny {ML model input} hvor {0, input} 
+diefth379.testing.retention_with_ml.pmml.Input.input#phrase.action = sæt inputen på {this} til {input}
+diefth379.testing.retention_with_ml.pmml.Input.input#phrase.navigation = {input} på {this}
+
+# diefth379.testing.retention_with_ml.pmml.Output
+diefth379.testing.retention_with_ml.pmml.Output#concept.label = ML model output
+diefth379.testing.retention_with_ml.pmml.Output.Output(java.lang.String)#phrase.navigation = en ny {ML model output} hvor {0, output} 
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.action = sæt erroren på {this} til {error}
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.clearer = fjern erroren på {this}
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.navigation = {error} på {this}
+diefth379.testing.retention_with_ml.pmml.Output.inError()#phrase.navigation = {this} er in error
+diefth379.testing.retention_with_ml.pmml.Output.output#phrase.action = sæt outputen på {this} til {output}
+diefth379.testing.retention_with_ml.pmml.Output.output#phrase.navigation = {output} på {this}
+diefth379.testing.retention_with_ml.pmml.Output.run(diefth379.testing.retention_with_ml.pmml.Input)#phrase.navigation = predict({0})

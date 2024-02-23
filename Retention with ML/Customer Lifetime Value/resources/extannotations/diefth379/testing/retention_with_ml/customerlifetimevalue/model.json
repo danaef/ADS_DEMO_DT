@@ -1,9 +1,9 @@
 {
   "name" : "LTV_Regression",
-  "id" : "29",
+  "id" : "31",
   "version" : "v1",
-  "modifiedAt" : "2024-02-23T08:54:27.256726Z",
-  "trainedAt" : "2024-02-23T08:54:27.186822Z",
+  "modifiedAt" : "2024-02-23T10:45:58.922418Z",
+  "trainedAt" : "2024-02-23T10:45:58.841296Z",
   "description" : "",
   "inputSchema" : {
     "id" : "input_id",

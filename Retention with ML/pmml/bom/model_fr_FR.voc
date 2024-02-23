@@ -1,0 +1,43 @@
+
+# Term: Entrée de modèle ML
+@Entrée\ de\ modèle\ ML#gender = FEMALE
+
+# Term: Erreur de sortie
+@Erreur\ de\ sortie#gender = FEMALE
+
+# Term: Sortie de modèle ML
+@Sortie\ de\ modèle\ ML#gender = FEMALE
+
+# Term: code
+@code#gender = MALE
+
+# Term: erreur
+@erreur#gender = FEMALE
+
+# Term: message
+@message#gender = MALE
+
+# diefth379.testing.retention_with_ml.pmml.Error
+diefth379.testing.retention_with_ml.pmml.Error#concept.label = Erreur de sortie
+diefth379.testing.retention_with_ml.pmml.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = une nouvelle {Erreur de sortie} tel que {0, code} {1, message} 
+diefth379.testing.retention_with_ml.pmml.Error.code#phrase.action = assigner le code {this,PARTITIVE_ARTICLE} à {code}
+diefth379.testing.retention_with_ml.pmml.Error.code#phrase.navigation = {code} {this,PARTITIVE_ARTICLE}
+diefth379.testing.retention_with_ml.pmml.Error.message#phrase.action = assigner le message {this,PARTITIVE_ARTICLE} à {message}
+diefth379.testing.retention_with_ml.pmml.Error.message#phrase.navigation = {message} {this,PARTITIVE_ARTICLE}
+
+# diefth379.testing.retention_with_ml.pmml.Input
+diefth379.testing.retention_with_ml.pmml.Input#concept.label = Entrée de modèle ML
+diefth379.testing.retention_with_ml.pmml.Input.Input(java.lang.String)#phrase.navigation = une nouvelle {Entrée de modèle ML} tel que {0, input} 
+diefth379.testing.retention_with_ml.pmml.Input.input#phrase.action = assigner l'input {this,PARTITIVE_ARTICLE} à {input}
+diefth379.testing.retention_with_ml.pmml.Input.input#phrase.navigation = {input} {this,PARTITIVE_ARTICLE}
+
+# diefth379.testing.retention_with_ml.pmml.Output
+diefth379.testing.retention_with_ml.pmml.Output#concept.label = Sortie de modèle ML
+diefth379.testing.retention_with_ml.pmml.Output.Output(java.lang.String)#phrase.navigation = une nouvelle {Sortie de modèle ML} tel que {0, output} 
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.action = assigner l'erreur {this,PARTITIVE_ARTICLE} à {erreur}
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.clearer = effacer l'erreur {this,PARTITIVE_ARTICLE}
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.navigation = {erreur} {this,PARTITIVE_ARTICLE}
+diefth379.testing.retention_with_ml.pmml.Output.inError()#phrase.navigation = {this} est en erreur
+diefth379.testing.retention_with_ml.pmml.Output.output#phrase.action = assigner l'output {this,PARTITIVE_ARTICLE} à {output}
+diefth379.testing.retention_with_ml.pmml.Output.output#phrase.navigation = {output} {this,PARTITIVE_ARTICLE}
+diefth379.testing.retention_with_ml.pmml.Output.run(diefth379.testing.retention_with_ml.pmml.Input)#phrase.navigation = predict({0})

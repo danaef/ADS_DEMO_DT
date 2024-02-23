@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>churnML</name>
+  <uuid>d7b85243-debf-4262-a6b0-92c8195f929d</uuid>
+  <locale>en_US</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="Decisions" name="churnML" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
+    </extensionElements>
+    <inputData id="input" name="CUSTOMER">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="com.ibm.ads.samples.telecom.customer_retention.data.CustomerRecord" collection="false" name="CUSTOMER"/>
+            </initialization>
+        </extensionElements>
+        <variable id="input_ii" name="CUSTOMER" typeRef="com.ibm.ads.samples.telecom.customer_retention.data.CustomerRecord"/>
+    </inputData>
+    <decision id="input-mapping" name="Input mapping">
+        <description>ML model input</description>
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="com.ibm.ads.samples.telecom.customer_retention.data.CustomerRecord" collection="false" name="CUSTOMER"/>
+                <input bomType="com.ibm.ads.samples.telecom.customer_retention.data.Subscription" collection="false" name="SUBSCRIPTION"/>
+                <output bomType="diefth379.testing.customer_retention.churnml.Input" collection="false" name="Input mapping"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="input_mapping_ii" name="Input mapping" typeRef="diefth379.testing.customer_retention.churnml.Input"/>
+        <informationRequirement>
+            <requiredInput href="#input"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_1"/>
+        </informationRequirement>
+    </decision>
+    <decision id="output-mapping" name="Output mapping">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="diefth379.testing.customer_retention.churnml.Output" collection="false" name="ML model invocation"/>
+                <output bomType="java.lang.Double" collection="false" name="Output mapping"/>
+                <rule defaultRule="true" href="output-mapping/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="output_mapping_ii" name="Output mapping" typeRef="java.lang.Double"/>
+        <informationRequirement>
+            <requiredInput href="#Prediction"/>
+        </informationRequirement>
+    </decision>
+    <decision id="Prediction" name="ML model invocation">
+        <description>ML model output</description>
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="diefth379.testing.customer_retention.churnml.Input" collection="false" name="Input mapping"/>
+                <output bomType="diefth379.testing.customer_retention.churnml.Output" collection="false" name="ML model invocation"/>
+                <rule defaultRule="false" href="Prediction/Prediction.drl" kind="BusinessRule" name="Prediction"/>
+            </ruleset>
+            <properties xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <property name="ads.designer.predictionInvocation"><![CDATA[true]]></property>
+            </properties>
+        </extensionElements>
+        <variable id="prediction_ii" name="ML model invocation" typeRef="diefth379.testing.customer_retention.churnml.Output"/>
+        <informationRequirement>
+            <requiredInput href="#input-mapping"/>
+        </informationRequirement>
+    </decision>
+    <inputData id="node_1" name="SUBSCRIPTION">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="com.ibm.ads.samples.telecom.customer_retention.data.Subscription" collection="false" name="SUBSCRIPTION"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_1_ii" name="SUBSCRIPTION" typeRef="com.ibm.ads.samples.telecom.customer_retention.data.Subscription"/>
+    </inputData>
+</definitions>
+</definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>

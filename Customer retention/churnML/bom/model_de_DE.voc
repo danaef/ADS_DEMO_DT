@@ -1,0 +1,57 @@
+
+# diefth379.testing.customer_retention.churnml.Error
+diefth379.testing.customer_retention.churnml.Error#concept.label = Ausgabefehler
+diefth379.testing.customer_retention.churnml.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = ein neuer {Ausgabefehler} wobei {0, Code} {1, Nachricht} 
+diefth379.testing.customer_retention.churnml.Error.code#phrase.action = setze das Code von {this} auf {Code}
+diefth379.testing.customer_retention.churnml.Error.code#phrase.navigation = {Code} von {this}
+diefth379.testing.customer_retention.churnml.Error.message#phrase.action = setze das Nachricht von {this} auf {Nachricht}
+diefth379.testing.customer_retention.churnml.Error.message#phrase.navigation = {Nachricht} von {this}
+
+# diefth379.testing.customer_retention.churnml.Input
+diefth379.testing.customer_retention.churnml.Input#concept.label = ML-Modelleingabe
+diefth379.testing.customer_retention.churnml.Input.Input(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,double,double)#phrase.navigation = ein neuer {ML-Modelleingabe} wobei {0, gender} {1, status} {2, car owner} {3, paymethod} {4, children} {5, est income} {6, age} {7, usage} {8, rateplan} 
+diefth379.testing.customer_retention.churnml.Input.age#phrase.action = setze das age von {this} auf {age}
+diefth379.testing.customer_retention.churnml.Input.age#phrase.addition_setter = füge {age} zu das age von {this} hinzu
+diefth379.testing.customer_retention.churnml.Input.age#phrase.navigation = {age} von {this}
+diefth379.testing.customer_retention.churnml.Input.age#phrase.subtraction_setter = ziehe {age} von das age von {this} ab
+diefth379.testing.customer_retention.churnml.Input.carOwner#phrase.action = setze das car owner von {this} auf {car owner}
+diefth379.testing.customer_retention.churnml.Input.carOwner#phrase.navigation = {car owner} von {this}
+diefth379.testing.customer_retention.churnml.Input.children#phrase.action = setze das children von {this} auf {children}
+diefth379.testing.customer_retention.churnml.Input.children#phrase.addition_setter = füge {children} zu das children von {this} hinzu
+diefth379.testing.customer_retention.churnml.Input.children#phrase.navigation = {children} von {this}
+diefth379.testing.customer_retention.churnml.Input.children#phrase.subtraction_setter = ziehe {children} von das children von {this} ab
+diefth379.testing.customer_retention.churnml.Input.estIncome#phrase.action = setze das est income von {this} auf {est income}
+diefth379.testing.customer_retention.churnml.Input.estIncome#phrase.addition_setter = füge {est income} zu das est income von {this} hinzu
+diefth379.testing.customer_retention.churnml.Input.estIncome#phrase.navigation = {est income} von {this}
+diefth379.testing.customer_retention.churnml.Input.estIncome#phrase.subtraction_setter = ziehe {est income} von das est income von {this} ab
+diefth379.testing.customer_retention.churnml.Input.gender#phrase.action = setze das gender von {this} auf {gender}
+diefth379.testing.customer_retention.churnml.Input.gender#phrase.navigation = {gender} von {this}
+diefth379.testing.customer_retention.churnml.Input.paymethod#phrase.action = setze das paymethod von {this} auf {paymethod}
+diefth379.testing.customer_retention.churnml.Input.paymethod#phrase.navigation = {paymethod} von {this}
+diefth379.testing.customer_retention.churnml.Input.rateplan#phrase.action = setze das rateplan von {this} auf {rateplan}
+diefth379.testing.customer_retention.churnml.Input.rateplan#phrase.addition_setter = füge {rateplan} zu das rateplan von {this} hinzu
+diefth379.testing.customer_retention.churnml.Input.rateplan#phrase.navigation = {rateplan} von {this}
+diefth379.testing.customer_retention.churnml.Input.rateplan#phrase.subtraction_setter = ziehe {rateplan} von das rateplan von {this} ab
+diefth379.testing.customer_retention.churnml.Input.status#phrase.action = setze das status von {this} auf {status}
+diefth379.testing.customer_retention.churnml.Input.status#phrase.navigation = {status} von {this}
+diefth379.testing.customer_retention.churnml.Input.usage#phrase.action = setze das usage von {this} auf {usage}
+diefth379.testing.customer_retention.churnml.Input.usage#phrase.addition_setter = füge {usage} zu das usage von {this} hinzu
+diefth379.testing.customer_retention.churnml.Input.usage#phrase.navigation = {usage} von {this}
+diefth379.testing.customer_retention.churnml.Input.usage#phrase.subtraction_setter = ziehe {usage} von das usage von {this} ab
+
+# diefth379.testing.customer_retention.churnml.Output
+diefth379.testing.customer_retention.churnml.Output#concept.label = ML-Modellausgabe
+diefth379.testing.customer_retention.churnml.Output.Output(double,double)#phrase.navigation = ein neuer {ML-Modellausgabe} wobei {0, probability t} {1, probability f} 
+diefth379.testing.customer_retention.churnml.Output.error#phrase.action = setze das Fehler von {this} auf {Fehler}
+diefth379.testing.customer_retention.churnml.Output.error#phrase.clearer = lösche das Fehler von {this}
+diefth379.testing.customer_retention.churnml.Output.error#phrase.navigation = {Fehler} von {this}
+diefth379.testing.customer_retention.churnml.Output.inError()#phrase.navigation = {this} ist im Fehler
+diefth379.testing.customer_retention.churnml.Output.probability_f_#phrase.action = setze das probability f von {this} auf {probability f}
+diefth379.testing.customer_retention.churnml.Output.probability_f_#phrase.addition_setter = füge {probability f} zu das probability f von {this} hinzu
+diefth379.testing.customer_retention.churnml.Output.probability_f_#phrase.navigation = {probability f} von {this}
+diefth379.testing.customer_retention.churnml.Output.probability_f_#phrase.subtraction_setter = ziehe {probability f} von das probability f von {this} ab
+diefth379.testing.customer_retention.churnml.Output.probability_t_#phrase.action = setze das probability t von {this} auf {probability t}
+diefth379.testing.customer_retention.churnml.Output.probability_t_#phrase.addition_setter = füge {probability t} zu das probability t von {this} hinzu
+diefth379.testing.customer_retention.churnml.Output.probability_t_#phrase.navigation = {probability t} von {this}
+diefth379.testing.customer_retention.churnml.Output.probability_t_#phrase.subtraction_setter = ziehe {probability t} von das probability t von {this} ab
+diefth379.testing.customer_retention.churnml.Output.run(diefth379.testing.customer_retention.churnml.Input)#phrase.navigation = predict({0})

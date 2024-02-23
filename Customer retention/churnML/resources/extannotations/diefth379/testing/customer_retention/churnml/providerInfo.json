@@ -1,0 +1,10 @@
+{
+  "id" : "b4ba45bf-0c91-465c-8d16-6a6f18dfafd1",
+  "providerId" : "ADS Sample Machine Learning Provider",
+  "predictionParameters" : {
+    "predictionParamType" : "SIMPLE",
+    "modelId" : "32",
+    "deploymentId" : "32"
+  },
+  "version" : "V1"
+}

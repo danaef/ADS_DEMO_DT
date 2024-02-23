@@ -72,6 +72,7 @@ Defined with prescriptive decision models.
         <module>Lifetime Value</module>
         <module>Retention offer</module>
         <module>churn - ml</module>
+        <module>churnML</module>
     </modules>
 
     <build>

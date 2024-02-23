@@ -1,0 +1,25 @@
+
+# diefth379.testing.retention_with_ml.pmml.Error
+diefth379.testing.retention_with_ml.pmml.Error#concept.label = 输出错误
+diefth379.testing.retention_with_ml.pmml.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = 新建 {输出错误}符合条件：{0, 代码} {1, 讯息} 
+diefth379.testing.retention_with_ml.pmml.Error.code#phrase.action = 设置{this}的当前 代码为{代码}
+diefth379.testing.retention_with_ml.pmml.Error.code#phrase.navigation = {this} 的{代码}
+diefth379.testing.retention_with_ml.pmml.Error.message#phrase.action = 设置{this}的当前 讯息为{讯息}
+diefth379.testing.retention_with_ml.pmml.Error.message#phrase.navigation = {this} 的{讯息}
+
+# diefth379.testing.retention_with_ml.pmml.Input
+diefth379.testing.retention_with_ml.pmml.Input#concept.label = ML 模型输入
+diefth379.testing.retention_with_ml.pmml.Input.Input(java.lang.String)#phrase.navigation = 新建 {ML 模型输入}符合条件：{0, input} 
+diefth379.testing.retention_with_ml.pmml.Input.input#phrase.action = 设置{this}的当前 input为{input}
+diefth379.testing.retention_with_ml.pmml.Input.input#phrase.navigation = {this} 的{input}
+
+# diefth379.testing.retention_with_ml.pmml.Output
+diefth379.testing.retention_with_ml.pmml.Output#concept.label = ML 模型输出
+diefth379.testing.retention_with_ml.pmml.Output.Output(java.lang.String)#phrase.navigation = 新建 {ML 模型输出}符合条件：{0, output} 
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.action = 设置{this}的当前 错误为{错误}
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.clearer = 删除当前 错误的{this}
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.navigation = {this} 的{错误}
+diefth379.testing.retention_with_ml.pmml.Output.inError()#phrase.navigation = {this} 是当前 出错
+diefth379.testing.retention_with_ml.pmml.Output.output#phrase.action = 设置{this}的当前 output为{output}
+diefth379.testing.retention_with_ml.pmml.Output.output#phrase.navigation = {this} 的{output}
+diefth379.testing.retention_with_ml.pmml.Output.run(diefth379.testing.retention_with_ml.pmml.Input)#phrase.navigation = predict({0})

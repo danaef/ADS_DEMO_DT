@@ -93,7 +93,7 @@ class Output
                 property de.generated {
                     $gen "com.ibm.decision.ml.integration.xom.PredictionRunGenerator",
                     $target "BOM",
-                    providerInfoId "68fd0db4-d497-4c60-9286-f402c7c94bce"
+                    providerInfoId "f6f0cd85-74d4-43e2-a2dd-ee153a6b9035"
                 }
                 #pureFunction;
 }

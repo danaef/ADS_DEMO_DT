@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="pmml">
+  <name>pmml</name>
+  <uuid>7859cd96-4e2e-4af3-b761-97361463b5c0</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#dc60ac5a-b497-4277-b98b-9bf118651594"/>
+  <targetRuleProject href="../../pmml#c498e731-2063-42bb-ae04-29dabeaa395b"/>
+  <tags key="ProviderType">
+    <value><![CDATA[OPS]]></value>
+  </tags>
+  <tags key="ProviderId">
+    <value><![CDATA[disconnectedProvider]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

@@ -1,0 +1,25 @@
+
+# diefth379.testing.retention_with_ml.pmml.Error
+diefth379.testing.retention_with_ml.pmml.Error#concept.label = 出力エラー
+diefth379.testing.retention_with_ml.pmml.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = 新規の {出力エラー}ここで{0, コード} {1, メッセージ} 
+diefth379.testing.retention_with_ml.pmml.Error.code#phrase.action = {this}のコードを{コード}とする
+diefth379.testing.retention_with_ml.pmml.Error.code#phrase.navigation = {this}の{コード}
+diefth379.testing.retention_with_ml.pmml.Error.message#phrase.action = {this}のメッセージを{メッセージ}とする
+diefth379.testing.retention_with_ml.pmml.Error.message#phrase.navigation = {this}の{メッセージ}
+
+# diefth379.testing.retention_with_ml.pmml.Input
+diefth379.testing.retention_with_ml.pmml.Input#concept.label = ML モデル入力
+diefth379.testing.retention_with_ml.pmml.Input.Input(java.lang.String)#phrase.navigation = 新規の {ML モデル入力}ここで{0, input} 
+diefth379.testing.retention_with_ml.pmml.Input.input#phrase.action = {this}のinputを{input}とする
+diefth379.testing.retention_with_ml.pmml.Input.input#phrase.navigation = {this}の{input}
+
+# diefth379.testing.retention_with_ml.pmml.Output
+diefth379.testing.retention_with_ml.pmml.Output#concept.label = ML モデル出力
+diefth379.testing.retention_with_ml.pmml.Output.Output(java.lang.String)#phrase.navigation = 新規の {ML モデル出力}ここで{0, output} 
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.action = {this}のエラーを{エラー}とする
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.clearer = エラー{this}をクリアする
+diefth379.testing.retention_with_ml.pmml.Output.error#phrase.navigation = {this}の{エラー}
+diefth379.testing.retention_with_ml.pmml.Output.inError()#phrase.navigation = {this}はエラーの
+diefth379.testing.retention_with_ml.pmml.Output.output#phrase.action = {this}のoutputを{output}とする
+diefth379.testing.retention_with_ml.pmml.Output.output#phrase.navigation = {this}の{output}
+diefth379.testing.retention_with_ml.pmml.Output.run(diefth379.testing.retention_with_ml.pmml.Input)#phrase.navigation = predict({0})
