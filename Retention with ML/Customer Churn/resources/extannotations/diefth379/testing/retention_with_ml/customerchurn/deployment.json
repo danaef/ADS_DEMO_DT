@@ -1,0 +1,7 @@
+{
+  "name" : "Churn_RandomForestClassifier",
+  "id" : "30",
+  "deployedAt" : "2024-02-23T08:54:30.854442Z",
+  "status" : "in_service",
+  "metadata" : { }
+}
