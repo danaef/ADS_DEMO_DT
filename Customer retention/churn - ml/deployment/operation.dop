@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="churn - ml">
+  <name>churn_ml</name>
+  <uuid>c53c1214-56e8-4d25-a085-1e3a6c7d8cef</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#8a02a8cd-a2f0-4e9c-af5d-4b456b4fe381"/>
+  <targetRuleProject href="../../churn%20-%20ml#436f06d5-d9ae-4046-bac5-7c7223b75c23"/>
+  <tags key="ProviderType">
+    <value><![CDATA[OPS]]></value>
+  </tags>
+  <tags key="ProviderId">
+    <value><![CDATA[disconnectedProvider]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

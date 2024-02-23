@@ -1,0 +1,57 @@
+
+# diefth379.testing.customer_retention.churn_ml.Error
+diefth379.testing.customer_retention.churn_ml.Error#concept.label = 出力エラー
+diefth379.testing.customer_retention.churn_ml.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = 新規の {出力エラー}ここで{0, コード} {1, メッセージ} 
+diefth379.testing.customer_retention.churn_ml.Error.code#phrase.action = {this}のコードを{コード}とする
+diefth379.testing.customer_retention.churn_ml.Error.code#phrase.navigation = {this}の{コード}
+diefth379.testing.customer_retention.churn_ml.Error.message#phrase.action = {this}のメッセージを{メッセージ}とする
+diefth379.testing.customer_retention.churn_ml.Error.message#phrase.navigation = {this}の{メッセージ}
+
+# diefth379.testing.customer_retention.churn_ml.Input
+diefth379.testing.customer_retention.churn_ml.Input#concept.label = ML モデル入力
+diefth379.testing.customer_retention.churn_ml.Input.Input(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,double,double)#phrase.navigation = 新規の {ML モデル入力}ここで{0, gender} {1, status} {2, car owner} {3, paymethod} {4, children} {5, est income} {6, age} {7, usage} {8, rateplan} 
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.action = {this}のageを{age}とする
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.addition_setter = {this}のageに{age}を追加する
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.navigation = {this}の{age}
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.subtraction_setter = {this}のageから{age}を引く
+diefth379.testing.customer_retention.churn_ml.Input.carOwner#phrase.action = {this}のcar ownerを{car owner}とする
+diefth379.testing.customer_retention.churn_ml.Input.carOwner#phrase.navigation = {this}の{car owner}
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.action = {this}のchildrenを{children}とする
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.addition_setter = {this}のchildrenに{children}を追加する
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.navigation = {this}の{children}
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.subtraction_setter = {this}のchildrenから{children}を引く
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.action = {this}のest incomeを{est income}とする
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.addition_setter = {this}のest incomeに{est income}を追加する
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.navigation = {this}の{est income}
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.subtraction_setter = {this}のest incomeから{est income}を引く
+diefth379.testing.customer_retention.churn_ml.Input.gender#phrase.action = {this}のgenderを{gender}とする
+diefth379.testing.customer_retention.churn_ml.Input.gender#phrase.navigation = {this}の{gender}
+diefth379.testing.customer_retention.churn_ml.Input.paymethod#phrase.action = {this}のpaymethodを{paymethod}とする
+diefth379.testing.customer_retention.churn_ml.Input.paymethod#phrase.navigation = {this}の{paymethod}
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.action = {this}のrateplanを{rateplan}とする
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.addition_setter = {this}のrateplanに{rateplan}を追加する
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.navigation = {this}の{rateplan}
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.subtraction_setter = {this}のrateplanから{rateplan}を引く
+diefth379.testing.customer_retention.churn_ml.Input.status#phrase.action = {this}のstatusを{status}とする
+diefth379.testing.customer_retention.churn_ml.Input.status#phrase.navigation = {this}の{status}
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.action = {this}のusageを{usage}とする
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.addition_setter = {this}のusageに{usage}を追加する
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.navigation = {this}の{usage}
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.subtraction_setter = {this}のusageから{usage}を引く
+
+# diefth379.testing.customer_retention.churn_ml.Output
+diefth379.testing.customer_retention.churn_ml.Output#concept.label = ML モデル出力
+diefth379.testing.customer_retention.churn_ml.Output.Output(double,double)#phrase.navigation = 新規の {ML モデル出力}ここで{0, probability t} {1, probability f} 
+diefth379.testing.customer_retention.churn_ml.Output.error#phrase.action = {this}のエラーを{エラー}とする
+diefth379.testing.customer_retention.churn_ml.Output.error#phrase.clearer = エラー{this}をクリアする
+diefth379.testing.customer_retention.churn_ml.Output.error#phrase.navigation = {this}の{エラー}
+diefth379.testing.customer_retention.churn_ml.Output.inError()#phrase.navigation = {this}はエラーの
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.action = {this}のprobability fを{probability f}とする
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.addition_setter = {this}のprobability fに{probability f}を追加する
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.navigation = {this}の{probability f}
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.subtraction_setter = {this}のprobability fから{probability f}を引く
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.action = {this}のprobability tを{probability t}とする
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.addition_setter = {this}のprobability tに{probability t}を追加する
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.navigation = {this}の{probability t}
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.subtraction_setter = {this}のprobability tから{probability t}を引く
+diefth379.testing.customer_retention.churn_ml.Output.run(diefth379.testing.customer_retention.churn_ml.Input)#phrase.navigation = predict({0})

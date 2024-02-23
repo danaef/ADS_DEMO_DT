@@ -1,0 +1,57 @@
+
+# diefth379.testing.customer_retention.churn_ml.Error
+diefth379.testing.customer_retention.churn_ml.Error#concept.label = Erro de saída
+diefth379.testing.customer_retention.churn_ml.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = um novo {Erro de saída} no qual {0, código} {1, mensagem} 
+diefth379.testing.customer_retention.churn_ml.Error.code#phrase.action = atribuir o código {this,PARTITIVE_ARTICLE} a {código}
+diefth379.testing.customer_retention.churn_ml.Error.code#phrase.navigation = {código} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Error.message#phrase.action = atribuir o mensagem {this,PARTITIVE_ARTICLE} a {mensagem}
+diefth379.testing.customer_retention.churn_ml.Error.message#phrase.navigation = {mensagem} {this,PARTITIVE_ARTICLE}
+
+# diefth379.testing.customer_retention.churn_ml.Input
+diefth379.testing.customer_retention.churn_ml.Input#concept.label = Entrada do modelo ML
+diefth379.testing.customer_retention.churn_ml.Input.Input(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,double,double)#phrase.navigation = um novo {Entrada do modelo ML} no qual {0, gender} {1, status} {2, car owner} {3, paymethod} {4, children} {5, est income} {6, age} {7, usage} {8, rateplan} 
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.action = atribuir o age {this,PARTITIVE_ARTICLE} a {age}
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.addition_setter = adicionar {age} ao age {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.navigation = {age} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.subtraction_setter = subtrair {age} do age {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.carOwner#phrase.action = atribuir o car owner {this,PARTITIVE_ARTICLE} a {car owner}
+diefth379.testing.customer_retention.churn_ml.Input.carOwner#phrase.navigation = {car owner} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.action = atribuir o children {this,PARTITIVE_ARTICLE} a {children}
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.addition_setter = adicionar {children} ao children {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.navigation = {children} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.subtraction_setter = subtrair {children} do children {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.action = atribuir o est income {this,PARTITIVE_ARTICLE} a {est income}
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.addition_setter = adicionar {est income} ao est income {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.navigation = {est income} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.subtraction_setter = subtrair {est income} do est income {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.gender#phrase.action = atribuir o gender {this,PARTITIVE_ARTICLE} a {gender}
+diefth379.testing.customer_retention.churn_ml.Input.gender#phrase.navigation = {gender} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.paymethod#phrase.action = atribuir o paymethod {this,PARTITIVE_ARTICLE} a {paymethod}
+diefth379.testing.customer_retention.churn_ml.Input.paymethod#phrase.navigation = {paymethod} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.action = atribuir o rateplan {this,PARTITIVE_ARTICLE} a {rateplan}
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.addition_setter = adicionar {rateplan} ao rateplan {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.navigation = {rateplan} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.subtraction_setter = subtrair {rateplan} do rateplan {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.status#phrase.action = atribuir o status {this,PARTITIVE_ARTICLE} a {status}
+diefth379.testing.customer_retention.churn_ml.Input.status#phrase.navigation = {status} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.action = atribuir o usage {this,PARTITIVE_ARTICLE} a {usage}
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.addition_setter = adicionar {usage} ao usage {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.navigation = {usage} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.subtraction_setter = subtrair {usage} do usage {this,PARTITIVE_ARTICLE}
+
+# diefth379.testing.customer_retention.churn_ml.Output
+diefth379.testing.customer_retention.churn_ml.Output#concept.label = Saída do modelo ML
+diefth379.testing.customer_retention.churn_ml.Output.Output(double,double)#phrase.navigation = um novo {Saída do modelo ML} no qual {0, probability t} {1, probability f} 
+diefth379.testing.customer_retention.churn_ml.Output.error#phrase.action = atribuir o erro {this,PARTITIVE_ARTICLE} a {erro}
+diefth379.testing.customer_retention.churn_ml.Output.error#phrase.clearer = limpar o erro {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Output.error#phrase.navigation = {erro} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Output.inError()#phrase.navigation = {this} é em erro
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.action = atribuir o probability f {this,PARTITIVE_ARTICLE} a {probability f}
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.addition_setter = adicionar {probability f} ao probability f {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.navigation = {probability f} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.subtraction_setter = subtrair {probability f} do probability f {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.action = atribuir o probability t {this,PARTITIVE_ARTICLE} a {probability t}
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.addition_setter = adicionar {probability t} ao probability t {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.navigation = {probability t} {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.subtraction_setter = subtrair {probability t} do probability t {this,PARTITIVE_ARTICLE}
+diefth379.testing.customer_retention.churn_ml.Output.run(diefth379.testing.customer_retention.churn_ml.Input)#phrase.navigation = predict({0})

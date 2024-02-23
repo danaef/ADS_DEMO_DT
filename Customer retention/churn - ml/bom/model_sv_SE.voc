@@ -1,0 +1,57 @@
+
+# diefth379.testing.customer_retention.churn_ml.Error
+diefth379.testing.customer_retention.churn_ml.Error#concept.label = Output error
+diefth379.testing.customer_retention.churn_ml.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = ett nytt {Output error} där {0, code} {1, message} 
+diefth379.testing.customer_retention.churn_ml.Error.code#phrase.action = sätt coden för {this} till {code}
+diefth379.testing.customer_retention.churn_ml.Error.code#phrase.navigation = {code} för {this}
+diefth379.testing.customer_retention.churn_ml.Error.message#phrase.action = sätt messagen för {this} till {message}
+diefth379.testing.customer_retention.churn_ml.Error.message#phrase.navigation = {message} för {this}
+
+# diefth379.testing.customer_retention.churn_ml.Input
+diefth379.testing.customer_retention.churn_ml.Input#concept.label = ML model input
+diefth379.testing.customer_retention.churn_ml.Input.Input(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,double,double)#phrase.navigation = ett nytt {ML model input} där {0, gender} {1, status} {2, car owner} {3, paymethod} {4, children} {5, est income} {6, age} {7, usage} {8, rateplan} 
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.action = sätt agen för {this} till {age}
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.addition_setter = addera {age} till agen för {this}
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.navigation = {age} för {this}
+diefth379.testing.customer_retention.churn_ml.Input.age#phrase.subtraction_setter = subtrahera {age} från agen för {this}
+diefth379.testing.customer_retention.churn_ml.Input.carOwner#phrase.action = sätt car ownern för {this} till {car owner}
+diefth379.testing.customer_retention.churn_ml.Input.carOwner#phrase.navigation = {car owner} för {this}
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.action = sätt childrenen för {this} till {children}
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.addition_setter = addera {children} till childrenen för {this}
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.navigation = {children} för {this}
+diefth379.testing.customer_retention.churn_ml.Input.children#phrase.subtraction_setter = subtrahera {children} från childrenen för {this}
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.action = sätt est incomen för {this} till {est income}
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.addition_setter = addera {est income} till est incomen för {this}
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.navigation = {est income} för {this}
+diefth379.testing.customer_retention.churn_ml.Input.estIncome#phrase.subtraction_setter = subtrahera {est income} från est incomen för {this}
+diefth379.testing.customer_retention.churn_ml.Input.gender#phrase.action = sätt gendern för {this} till {gender}
+diefth379.testing.customer_retention.churn_ml.Input.gender#phrase.navigation = {gender} för {this}
+diefth379.testing.customer_retention.churn_ml.Input.paymethod#phrase.action = sätt paymethoden för {this} till {paymethod}
+diefth379.testing.customer_retention.churn_ml.Input.paymethod#phrase.navigation = {paymethod} för {this}
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.action = sätt rateplanen för {this} till {rateplan}
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.addition_setter = addera {rateplan} till rateplanen för {this}
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.navigation = {rateplan} för {this}
+diefth379.testing.customer_retention.churn_ml.Input.rateplan#phrase.subtraction_setter = subtrahera {rateplan} från rateplanen för {this}
+diefth379.testing.customer_retention.churn_ml.Input.status#phrase.action = sätt statusen för {this} till {status}
+diefth379.testing.customer_retention.churn_ml.Input.status#phrase.navigation = {status} för {this}
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.action = sätt usagen för {this} till {usage}
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.addition_setter = addera {usage} till usagen för {this}
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.navigation = {usage} för {this}
+diefth379.testing.customer_retention.churn_ml.Input.usage#phrase.subtraction_setter = subtrahera {usage} från usagen för {this}
+
+# diefth379.testing.customer_retention.churn_ml.Output
+diefth379.testing.customer_retention.churn_ml.Output#concept.label = ML model output
+diefth379.testing.customer_retention.churn_ml.Output.Output(double,double)#phrase.navigation = ett nytt {ML model output} där {0, probability t} {1, probability f} 
+diefth379.testing.customer_retention.churn_ml.Output.error#phrase.action = sätt errorn för {this} till {error}
+diefth379.testing.customer_retention.churn_ml.Output.error#phrase.clearer = rensa errorn för {this}
+diefth379.testing.customer_retention.churn_ml.Output.error#phrase.navigation = {error} för {this}
+diefth379.testing.customer_retention.churn_ml.Output.inError()#phrase.navigation = {this} är in error
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.action = sätt probability fen för {this} till {probability f}
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.addition_setter = addera {probability f} till probability fen för {this}
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.navigation = {probability f} för {this}
+diefth379.testing.customer_retention.churn_ml.Output.probability_f_#phrase.subtraction_setter = subtrahera {probability f} från probability fen för {this}
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.action = sätt probability ten för {this} till {probability t}
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.addition_setter = addera {probability t} till probability ten för {this}
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.navigation = {probability t} för {this}
+diefth379.testing.customer_retention.churn_ml.Output.probability_t_#phrase.subtraction_setter = subtrahera {probability t} från probability ten för {this}
+diefth379.testing.customer_retention.churn_ml.Output.run(diefth379.testing.customer_retention.churn_ml.Input)#phrase.navigation = predict({0})
